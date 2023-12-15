@@ -1,0 +1,9 @@
+- 명령어 순서 -
+
+cd /home/tkguswls1106/downloads/tomcat/webapps/webServer-hw
+git pull origin master
+cd ..
+rm ROOT.war
+cd webServer-hw
+mv ROOT.war /home/tkguswls1106/downloads/tomcat/webapps/ROOT.war
+sh /home/tkguswls1106/downloads/tomcat/bin/startup.sh
